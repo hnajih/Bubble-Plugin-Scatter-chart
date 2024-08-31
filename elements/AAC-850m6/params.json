@@ -1,0 +1,288 @@
+{
+    "add_is_visible": true,
+    "can_fit_height": false,
+    "can_fit_width": false,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 240,
+        "width": 400
+    },
+    "display": "Scatter chart",
+    "fields": {
+        "AAG": {
+            "caption": "Series 1 data",
+            "doc": "first series data separated by comma",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "series_1_data",
+            "rank": 8,
+            "value": "text"
+        },
+        "AAH": {
+            "caption": "Series 1 name",
+            "doc": "first series name",
+            "editor": "DynamicValue",
+            "is_list": false,
+            "name": "series_1_name",
+            "rank": 6,
+            "value": "text"
+        },
+        "AAJ": {
+            "caption": "Title",
+            "default_val": "chart title",
+            "doc": "Text to display as a title of chart",
+            "editor": "DynamicValue",
+            "name": "title",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAL": {
+            "caption": "Series 1 color",
+            "default_val": "rgba(237,15,203,1)",
+            "doc": "first series color",
+            "editor": "Color",
+            "in_style": false,
+            "is_list": true,
+            "name": "series_1_color",
+            "optional": false,
+            "rank": 7
+        },
+        "AAM": {
+            "caption": "Title alignment",
+            "default_val": "left",
+            "doc": " Alignment of title relative to chart area. ",
+            "editor": "Dropdown",
+            "name": "title_alignment",
+            "options": "left,center,right",
+            "rank": 1
+        },
+        "AAP": {
+            "caption": "Zoomable",
+            "default_val": false,
+            "doc": "To allow zooming in axis charts.",
+            "editor": "Checkbox",
+            "name": "zoomable",
+            "rank": 10
+        },
+        "AAQ": {
+            "caption": "Data labels enabled",
+            "default_val": false,
+            "doc": "To determine whether to show dataLabels or not",
+            "editor": "Checkbox",
+            "name": "data_labels_enabled",
+            "rank": 11
+        },
+        "AAU": {
+            "caption": "Show grid",
+            "default_val": true,
+            "doc": "To show or hide grid area (including xaxis / yaxis)",
+            "editor": "Checkbox",
+            "name": "show_grid",
+            "rank": 12
+        },
+        "AAV": {
+            "caption": "xAxis position",
+            "default_val": "bottom",
+            "doc": " Setting this option allows you to change the x-axis position ",
+            "editor": "Dropdown",
+            "name": "xaxis_position",
+            "options": "bottom,top",
+            "rank": 2
+        },
+        "AAW": {
+            "caption": "Show yAxis",
+            "default_val": true,
+            "doc": "Whether to display the y-axis or not.",
+            "editor": "Checkbox",
+            "name": "show_yaxis",
+            "rank": 3
+        },
+        "AAX": {
+            "caption": "yAxis position",
+            "default_val": "left",
+            "doc": " Setting this option allows you to change the y-axis position ",
+            "editor": "Dropdown",
+            "name": "yaxis_position",
+            "options": "left,right",
+            "rank": 4
+        },
+        "AAY": {
+            "caption": "reverse yAxis",
+            "default_val": false,
+            "doc": " Flip the chart upside down making it inversed and draw the y-axis from bigger to smaller numbers.",
+            "editor": "Checkbox",
+            "name": "reverse_yaxis",
+            "rank": 5
+        },
+        "AAZ": {
+            "caption": "Show legend",
+            "default_val": true,
+            "doc": " Whether to show or hide the legend container.",
+            "editor": "Checkbox",
+            "name": "show_legend",
+            "rank": 13
+        },
+        "AAa": {
+            "caption": "No data text",
+            "default_val": "no data",
+            "doc": " The text to display when no-data is available. Defaults to undefined which displays nothing.",
+            "editor": "StaticText",
+            "in_style": true,
+            "name": "no_data_text",
+            "rank": 14
+        },
+        "AAb": {
+            "caption": "Dark mode",
+            "default_val": false,
+            "doc": "Enable dark mode",
+            "editor": "DynamicValue",
+            "name": "dark_mode",
+            "rank": 15,
+            "value": "boolean"
+        },
+        "AAc": {
+            "caption": "Tooltip enabled",
+            "default_val": true,
+            "doc": " Show tooltip when user hovers over chart area.",
+            "editor": "Checkbox",
+            "name": "tooltip_enabled",
+            "rank": 16
+        },
+        "AAf": {
+            "caption": "Downloading enabled",
+            "default_val": false,
+            "doc": " Display the toolbar / menu in the top right corner.",
+            "editor": "DynamicValue",
+            "name": "downloading_enabled",
+            "rank": 17,
+            "value": "boolean"
+        },
+        "AAl": {
+            "caption": "Series 2 name",
+            "doc": "second series name",
+            "editor": "DynamicValue",
+            "name": "series_2_name",
+            "optional": true,
+            "rank": 18,
+            "value": "text"
+        },
+        "AAm": {
+            "caption": "Series 2 color",
+            "default_val": "rgba(237,14,14,1)",
+            "doc": "second series color",
+            "editor": "Color",
+            "name": "series_2_color",
+            "optional": true,
+            "rank": 19
+        },
+        "AAn": {
+            "caption": "Series 2 data",
+            "doc": "second series data separated by comma",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "series_2_data",
+            "optional": true,
+            "rank": 20,
+            "value": "text"
+        },
+        "AAo": {
+            "caption": "Series 3 name",
+            "doc": "third series name",
+            "editor": "DynamicValue",
+            "name": "series_3_name",
+            "optional": true,
+            "rank": 21,
+            "value": "text"
+        },
+        "AAp": {
+            "caption": "Series 3 color",
+            "default_val": "rgba(5,207,15,1)",
+            "doc": "third series color",
+            "editor": "Color",
+            "name": "series_3_color",
+            "optional": true,
+            "rank": 22
+        },
+        "AAq": {
+            "caption": "Series 3 data",
+            "doc": "third series data separated by comma",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "series_3_data",
+            "optional": true,
+            "rank": 23,
+            "value": "text"
+        },
+        "AAr": {
+            "caption": "Series 4 name",
+            "doc": "fourth series name",
+            "editor": "DynamicValue",
+            "name": "series_4_name",
+            "optional": true,
+            "rank": 24,
+            "value": "text"
+        },
+        "AAs": {
+            "caption": "Series 4 color",
+            "default_val": "rgba(0,0,0,1)",
+            "doc": "fourth series color",
+            "editor": "Color",
+            "name": "series_4_color",
+            "optional": true,
+            "rank": 25
+        },
+        "AAt": {
+            "caption": "Series 4 data",
+            "doc": "fourth series data separated by comma",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "series_4_data",
+            "optional": true,
+            "rank": 26,
+            "value": "text"
+        },
+        "AAu": {
+            "caption": "Series 5 name",
+            "doc": "fifth series name",
+            "editor": "DynamicValue",
+            "name": "series_5_name",
+            "optional": true,
+            "rank": 27,
+            "value": "text"
+        },
+        "AAv": {
+            "caption": "Series 5 color",
+            "default_val": "rgba(234,242,14,1)",
+            "doc": "fifth series color",
+            "editor": "Color",
+            "name": "series_5_color",
+            "optional": true,
+            "rank": 28
+        },
+        "AAw": {
+            "caption": "Series 5 data",
+            "doc": "fifth series data separated by comma",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "series_5_data",
+            "optional": true,
+            "rank": 29,
+            "value": "text"
+        },
+        "AAy": {
+            "caption": "Tick Amount",
+            "default_val": 10,
+            "editor": "DynamicValue",
+            "name": "tick_amount",
+            "rank": 9,
+            "value": "number"
+        }
+    },
+    "has_reset_fn": false,
+    "icon": "ion-android-radio-button-off",
+    "property_applications": {
+        "Font": true,
+        "MinWidth": true,
+        "resizable": true
+    }
+}

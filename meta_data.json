@@ -1,0 +1,15 @@
+{
+    "categories": {
+        "0": "chart",
+        "1": "data (things)",
+        "2": "mobile",
+        "3": "productivity",
+        "4": "analytics"
+    },
+    "data_tracked": false,
+    "demo_page": "https://apex-charts-79431.bubbleapps.io/version-test/scatter?debug_mode=true",
+    "description": "customizable scatter chart with advanced features for your application\n\nApexCharts is a modern charting library that helps developers to create beautiful and interactive visualizations for web pages\n\nScatter ApexCharts\n\n\nDemo https://apex-charts-79431.bubbleapps.io/version-test/scatter?debug_mode=true\n",
+    "image": "//meta-q.cdn.bubble.io/f1725110412993x958608520723517800/Animation%20-%201725110242863.gif",
+    "license": "open_source",
+    "name": "Scatter chart"
+}

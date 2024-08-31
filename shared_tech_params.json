@@ -1,0 +1,12 @@
+{
+    "assets": {
+        "AAz": {
+            "name": "scatter",
+            "url": "//meta-q.cdn.bubble.io/f1725113241656x157601001260787140/fc3noor2%284%29.svg"
+        }
+    },
+    "dependencies": {
+        "plugin_api_version": 4,
+        "use_jquery": true
+    }
+}
